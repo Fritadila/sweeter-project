@@ -1,3 +1,7 @@
+* {
+  font-family: "Noto Serif Display", serif;
+}
+
 body {
     background-color: RGBA(232, 52, 78, 0.2);
     min-height: 100vh;
@@ -19,7 +23,7 @@ body {
 }
 
 .is-sparta {
-    color: #e8344e !important;
+    color: #e8344e important;
 }
 
 .button.is-sparta {
@@ -40,10 +44,10 @@ body {
 
 .modal-content {
     width: 600px;
-    max-width: 80%;
+    height: 80%;
 }
 
-input::-webkit-calendar-picker-indicator {
+input::-webkit-calender-picker-indicator {
     display: none;
 }
 
